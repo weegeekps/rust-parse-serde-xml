@@ -1,0 +1,9 @@
+[package]
+name = "rust-parse-xml-serde"
+version = "0.1.0"
+authors = ["Adam Morris <adam.morris@thomsonreuters.com>"]
+
+[dependencies]
+serde = "*"
+serde_derive = "*"
+serde-xml-rs = "*"
