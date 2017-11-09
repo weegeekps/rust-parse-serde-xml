@@ -11,8 +11,8 @@ use std::io::{BufReader};
 struct Question {
     #[serde(rename="$value")]
     text: String,
-    // #[serde(default)]
-    // measure: String,
+    #[serde(default)]
+    measure: String,
 }
 
 #[derive(Debug, Deserialize)]
